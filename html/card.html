@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="../style/card.css">
+</head>
+<body>
+    <header class="header">
+        <ul class="header__menu">
+            <img src="../img/icons8-bank-80.png" alt="" class="logo">
+            <a href="../index.html" class="header__menu-nav">Головна</a>
+            <a href="./regestration.html" class="header__menu-nav">Реєстрація</a>
+            <a href="../html/card.html" class="header__menu-nav">Отримати картку</a>
+            <a href="" class="header__menu-nav">Новини</a>
+        </ul>
+    </header>
+    <main class="main">
+            <form class="form">
+                <label class="form__label">Введіть Ваше ім'я</label>
+                <input class="form__name" type="text" placeholder="Name">
+        
+                <label class="form__label">Введіть Ваше прізвище</label>
+                <input class="form__surname" type="text" placeholder="Surname">
+        
+                <label class="form__label">Отримати номер картки:</label>
+                <button class="form__receive">Отримати</button>
+                
+                <label class="form__label">Отримати CVV код</label>
+                <button class="form__receive-2">Отримати</button>
+        
+                <label class="form__label">Термін дії картки</label>
+                <input class="form__date" type="date">
+            </form>
+    
+        <div class="card">
+            <div class="card__line">
+                <img class="card__tree" src="../img/tress (1).png" alt="">
+                <p class="card__title">Debit Card</p>
+                <img src="../img/master-card.jpeg" alt="" class="card__master">
+            </div>
+            <img src="../img/card.png" alt="" class="card__chip">
+            <p class="card__name"></p>
+            <p class="card__surname"></p>
+            <p class="card__number"></p>
+            <p class="card__cvv"></p>
+        </div>
+    </main>
+
+    <script src="../script/card.js"></script>
+</body>
+</html>
